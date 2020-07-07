@@ -1,0 +1,20 @@
+Note for Github Practice (2020-07-07)
+
+Lecture Documents: https://www.notion.so/Git-Cheat-Sheet-b5f7242bea124435b1b7e4f94b72dd86
+
+================================================
+[1] What is Git & Github?
+================================================
+
+Git: Version Control System for specific file modifications.
+
+GitHub: Extended version control system using Git. Provides Git repository.
+
+================================================
+[2] Git command list
+================================================
+
+git init: Git initialization to create .git/
+
+git status: current file modification status
+
