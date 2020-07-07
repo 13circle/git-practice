@@ -14,7 +14,21 @@ GitHub: Extended version control system using Git. Provides Git repository.
 [2] Git command list
 ================================================
 
-git init: Git initialization to create .git/
+git init: Git initialization to create '.git/'.
 
-git status: current file modification status
+git status: Current file modification status.
+
+git add .: Add specific directories or files to the commit stage.
+
+git commit -m $MESSAGE: Commit currently staged directories or files.
+                        ($MESSAGE = title message for the commit)
+
+git log: Shows all commit logs.
+
+git config --global user.name $USER_NAME: Set $USER_NAME as a global Git user's name.
+                                          (Exclude $USER_NAME to see the current value)
+
+git config --global user.email $USER_EMAIL: Set $USER_EMAIL as a global Git user's email
+                                            (Exclude $USER_EMAIL to see the current value)
+
 
